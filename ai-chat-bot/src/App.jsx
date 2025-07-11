@@ -9,9 +9,7 @@ function App() {
     <>
       <Header />
       <main>
-        <FarmerIntro />
-        <ContactForm />
-        <DeliveryInstructions />
+        Main
       </main>
       <footer>Fresh Microgreens &copy; 2024</footer>
     </>
