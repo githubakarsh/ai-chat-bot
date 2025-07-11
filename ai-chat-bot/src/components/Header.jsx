@@ -27,7 +27,7 @@ function Header() {
         </ul>
       </nav>
       <div className="user-icon" title="User">
-        \u{1F464}
+        User
       </div>
     </header>
   )

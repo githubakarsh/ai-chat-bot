@@ -1,12 +1,13 @@
 .floating-sidebar {
   position: fixed;
-  top: 50%;
+  top: 20%;
   left: 0;
   transform: translateY(-50%);
   width: 200px;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
+  height: 100%;
 }
 
 .floating-sidebar ul {
