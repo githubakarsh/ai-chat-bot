@@ -1,0 +1,5 @@
+[
+  { "user": "hello", "bot": "Hi! How can I assist you today?" },
+  { "user": "what's your name", "bot": "I'm your friendly chat bot." },
+  { "user": "bye", "bot": "Goodbye!" }
+]
