@@ -2,15 +2,20 @@ import { useState } from 'react'
 import logo from '../assets/react.svg'
 import './Header.css'
 
-function Header() {
+function Header({ onMenuClick }) {
   const [active, setActive] = useState('Home')
   const menuItems = ['Home', 'Features', 'Pricing', 'Contact']
 
   return (
     <header className="app-header">
-      <div className="logo-wrapper">
-        <img src={logo} alt="AI Chat Bot Logo" />
-        <span className="logo-text">AI Chat Bot</span>
+      <div className="left-group">
+        <button className="menu-button" onClick={onMenuClick} aria-label="Toggle sidebar">
+          ☰
+        </button>
+        <div className="logo-wrapper">
+          <img src={logo} alt="AI Chat Bot Logo" />
+          <span className="logo-text">AI Chat Bot</span>
+        </div>
       </div>
       <nav>
         <ul>
