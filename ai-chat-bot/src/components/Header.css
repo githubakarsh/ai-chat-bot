@@ -12,6 +12,11 @@
   color: white;
 }
 
+.left-group {
+  display: flex;
+  align-items: center;
+}
+
 .logo-wrapper {
   display: flex;
   align-items: center;
@@ -47,4 +52,13 @@ nav ul {
 
 .user-icon {
   font-size: 1.5rem;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-right: 1rem;
 }
